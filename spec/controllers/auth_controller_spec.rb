@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe AuthController, type: :controller do
-
   describe "POST #create" do
     before { post :create, params: user_params }
 

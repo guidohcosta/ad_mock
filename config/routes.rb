@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  post 'auth/create'
+  resources :auth, only: :create
 end
